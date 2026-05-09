@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es-CL">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller Frontend 2026</title>
+  <link rel="icon" type="image/png" href="static/img/favicon.png" />
+  <!-- Cabeceras de seguridad -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="static/css/index.css" />
+  <!-- Scripts -->
+  <script type="text/javascript" src="static/js/slider.js" defer></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="seccion header" id="inicio">
+    <img src="static/img/logo.png" class="header__logo" alt="Logo del Taller Frontend 2026" />
+    <nav class="header__nav" aria-label="Navegación principal">
+      <a class="header__link" href="#informacion">Información</a>
+      <a class="header__link" href="#stack">Stack</a>
+      <a class="header__link" href="#relatores">Relatores</a>
+      <a class="header__link" href="#inscripcion">Inscríbete</a>
+    </nav>
+  </header>
+  <!-- Hero section -->
+  <main class="seccion hero">
+    <article class="hero__content">
+      <h1 class="hero__titulo">Taller Frontend</h1>
+      <span class="hero__anio">2026</span>
+      <ul class="hero__tickets">
+        <li>Único semestre</li>
+        <li>Iniciativa estudiantil</li>
+        <li>Para toda la comunidad</li>
+      </ul>
+      <h2 class="hero__destacado--1">Taller 100% Gratuito</h2>
+      <a href="#inscripcion" class="hero__cta">¡Inscríbete ahora!</a>
+    </article>
+    <figure class="hero__imagen">
+      <img class="hero__img" src="static/img/hero.png" alt="Imagen principal del taller" />
+    </figure>
+  </main>
+  <!-- Pilares -->
+  <section class="seccion pilares" id="informacion">
+    <h2 class="seccion__titulo">Lo que debes saber del curso</h2>
+    <article class="pilares__card">
+      <img src="static/img/pilares-1.png" class="pilares__card-img" alt="Icono de fecha clave" />
+      <h3 class="pilares__card-titulo">Fechas clave</h3>
+      <p class="pilares__card-texto">Inicio: 11 Abril / Fin: 11 Mayo</p>
+      <p class="pilares__card-texto">USACH - DEPTO. Ingeniería Informática</p>
+    </article>
+    <article class="pilares__card">
+      <img src="static/img/pilares-2.png" class="pilares__card-img" alt="Icono de horario" />
+      <h3 class="pilares__card-titulo">Horario Intensivo</h3>
+      <p class="pilares__card-texto">Sábados de 09:00 a 13:00</p>
+      <p class="pilares__card-texto">Clases presenciales y mentoría</p>
+    </article>
+    <article class="pilares__card">
+      <img src="static/img/pilares-3.png" class="pilares__card-img" alt="Icono de organización" />
+      <h3 class="pilares__card-titulo">Organizado por</h3>
+      <p class="pilares__card-texto">Asociación de informáticos</p>
+      <p class="pilares__card-texto">softwarelibrechile.cl</p>
+    </article>
+  </section>
+  <!-- Slider -->
+  <section class="seccion slider" id="stack">
+    <h2 class="seccion__titulo">Nuestro Stack Tecnológico</h2>
+    <div class="slider__track" id="track">
+      <!-- Tarjeta -->
+      <div class="slider__card">
+        <img class="slider__imagen" src="static/img/icono-html.png" alt="Logo de HTML" />
+        <h3 class="slider__titulo">HTML</h3>
+        <p class="slider__texto">Base estructural de la web moderna</p>
+      </div>
+      <!-- Tarjeta -->
+      <div class="slider__card">
+        <img class="slider__imagen" src="static/img/icono-css.png" alt="Logo de CSS" />
+        <h3 class="slider__titulo">CSS</h3>
+        <p class="slider__texto">Diseño visual y responsivo</p>
+      </div>
+      <!-- Tarjeta -->
+      <div class="slider__card">
+        <img class="slider__imagen" src="static/img/icono-javascript.png" alt="Logo de JavaScript" />
+        <h3 class="slider__titulo">JavaScript</h3>
+        <p class="slider__texto">Interactividad y lógica en la web</p>
+      </div>
+      <!-- Tarjeta -->
+      <div class="slider__card">
+        <img class="slider__imagen" src="static/img/icono-react.png" alt="Logo de React" />
+        <h3 class="slider__titulo">React</h3>
+        <p class="slider__texto">Interfaces modulares y reutilizables</p>
+      </div>
+      <!-- Tarjeta -->
+      <div class="slider__card">
+        <img class="slider__imagen" src="static/img/icono-next.png" alt="Logo de Next.js" />
+        <h3 class="slider__titulo">Next.js</h3>
+        <p class="slider__texto">Framework para apps modernas</p>
+      </div>
+    </div>
+    <div class="slider__controls" id="controls">
+      <div class="slider__dot"></div>
+      <div class="slider__dot"></div>
+      <div class="slider__dot"></div>
+      <div class="slider__dot"></div>
+      <div class="slider__dot"></div>
+    </div>
+    <div class="slider__botones">
+      <button class="slider__btn slider__btn--prev" aria-label="Ver elemento anterior">
+        ‹
+      </button>
+      <button class="slider__btn slider__btn--next" aria-label="Ver siguiente elemento">
+        ›
+      </button>
+    </div>
+  </section>
+  <!-- Relatores-->
+  <section class="seccion relatores" id="relatores">
+    <h2 class="seccion__titulo">Relatores</h2>
+    <div class="relatores__contenedor">
+      <!-- tarjeta -->
+      <article class="relatores__tarjeta">
+        <img class="relatores__foto" src="static/img/relator-david.jpg" alt="Foto del relator 1" />
+        <div class="relatores__datos">
+          <h3 class="relatores__nombre">David Hernández</h3>
+          <ul class="relatores__curriculum">
+            <li class="relatores__dato">Director Asociación de</li>
+            <li class="relatores__dato">Informáticos UTE-USACH.</li>
+            <li class="relatores__dato">A.G.|Paleo Informático</li>
+            <li class="relatores__dato">
+              <a href="mailto:david.hernandezm@usach.cl">david.hernandezm@usach.cl</a>
+            </li>
+            <li class="relatores__dato">
+              <a href="tel:+56998246832">+56998246832</a>
+            </li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://www.linkedin.com/in/david-hern%C3%A1ndez-23205b3a" rel="noopener noreferrer"
+          class="relatores__rrss-link">
+          <img class="relatores__rrss-img" src="static/img/rrss_linkedin.jpg" alt="Linkedin" />
+        </a>
+      </article>
+      <article class="relatores__tarjeta">
+        <img class="relatores__foto" src="static/img/relator-sebastian.jpg" alt="Foto del relator 1" />
+        <div class="relatores__datos">
+          <h3 class="relatores__nombre">Sebastian Becerra</h3>
+          <ul class="relatores__curriculum">
+            <li class="relatores__dato">Líder Técnico en Operaciones</li>
+            <li class="relatores__dato">| Transformación Digital |</li>
+            <li class="relatores__dato">Liderazgo Ágil | Ecommerce</li>
+            <li class="relatores__dato">B2B/B2C &amp; Tecnología /</li>
+            <li class="relatores__dato">Desarrollador de Back-end en</li>
+            <li class="relatores__dato">Banco Falabella.</li>
+          </ul>
+
+        </div>
+        <a target="_blank" href="https://www.linkedin.com/in/sebaebc/" rel="noopener noreferrer"
+          class="relatores__rrss-link">
+          <img class="relatores__rrss-img" src="static/img/rrss_linkedin.jpg" alt="Linkedin" />
+        </a>
+      </article>
+      <!-- tarjeta -->
+      <article class="relatores__tarjeta">
+        <img class="relatores__foto" src="static/img/relator-gonzalo.jpg" alt="Foto del relator 1" />
+        <div class="relatores__datos">
+          <h3 class="relatores__nombre">Gonzalo Flemming</h3>
+          <ul class="relatores__curriculum">
+            <li class="relatores__dato">Tech Lead at Falabella</li>
+            <li class="relatores__dato">| Transformación Digital |</li>
+            <li class="relatores__dato">Financiero | Software</li>
+            <li class="relatores__dato">Development Professor</li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://www.linkedin.com/in/gfleming-garrido/" rel="noopener noreferrer"
+          class="relatores__rrss-link">
+          <img class="relatores__rrss-img" src="static/img/rrss_linkedin.jpg" alt="Linkedin" />
+        </a>
+      </article>
+      <!-- tarjeta -->
+      <article class="relatores__tarjeta">
+        <img class="relatores__foto" src="static/img/relator-scarlet.jpg" alt="Foto del relator 1" />
+        <div class="relatores__datos">
+          <h3 class="relatores__nombre">Scarlet Melgarejo</h3>
+          <ul class="relatores__curriculum">
+            <li class="relatores__dato">KAM Ecommerce B2B - B2C |</li>
+            <li class="relatores__dato">Diseño Web / UX-UI | Líder</li>
+            <li class="relatores__dato">Continuidad Operativa e</li>
+            <li class="relatores__dato">Implementación</li>
+            <li class="relatores__dato">Development Professor</li>
+          </ul>
+        </div>
+        <a target="_blank" class="relatores__rrss-link"
+          href="https://www.linkedin.com/in/scarlett-melgarejo-venegas-38805626/" rel="noopener noreferrer">
+          <img class="relatores__rrss-img" src="static/img/rrss_linkedin.jpg" alt="Linkedin" />
+        </a>
+      </article>
+      <!-- tarjeta -->
+      <article class="relatores__tarjeta">
+        <img class="relatores__foto" src="static/img/relator-cristian.jpg" alt="Foto del relator 1" />
+        <div class="relatores__datos">
+          <h3 class="relatores__nombre">Cristian Pavéz</h3>
+          <ul class="relatores__curriculum">
+            <li class="relatores__dato">AI Engineer | Deep Learning &</li>
+            <li class="relatores__dato">Generative AI Software</li>
+            <li class="relatores__dato">Engineer en Walmart Chile</li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://www.linkedin.com/in/cristian-pavez" rel="noopener noreferrer"
+          class="relatores__rrss-link">
+          <img class="relatores__rrss-img" src="static/img/rrss_linkedin.jpg" alt="Linkedin" />
+        </a>
+      </article>
+      <!-- tarjeta -->
+      <article class="relatores__tarjeta">
+        <img class="relatores__foto" src="static/img/relator-manuel.jpg" alt="Foto del relator 1" />
+        <div class="relatores__datos">
+          <h3 class="relatores__nombre">Manuel Durán</h3>
+          <ul class="relatores__curriculum">
+            <li class="relatores__dato">Developer | Data Science & Web</li>
+            <li class="relatores__dato">Technologies / Desarrollador</li>
+            <li class="relatores__dato">de IU web en Globant</li>
+          </ul>
+        </div>
+        <a target="_blank" href="https://www.linkedin.com/in/durbonca" rel="noopener noreferrer"
+          class="relatores__rrss-link">
+          <img class="relatores__rrss-img" src="static/img/rrss_linkedin.jpg" alt="Linkedin" />
+        </a>
+      </article>
+    </div>
+  </section>
+  <!-- Formulario de inscripción -->
+  <section class="seccion formulario" id="inscripcion">
+    <h2 class="seccion__titulo">Inscríbete con nosotros</h2>
+    <form class="formulario__form" action="/submit.php" method="post">
+      <div class="formulario__campo">
+        <label class="formulario__label" for="nombre">Nombre</label>
+        <input class="formulario__input" type="text" id="nombre" name="nombre" required />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="apellido">Apellido</label>
+        <input class="formulario__input" type="text" id="apellido" name="apellido" required />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="rut">RUT</label>
+        <input class="formulario__input" type="text" id="rut" name="rut" placeholder="12.345.678-9" required />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="fecha_nacimiento">Fecha de nacimiento</label>
+        <input class="formulario__input" type="date" id="fecha_nacimiento" name="fecha_nacimiento" required />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="casa_estudios">Casa de estudios</label>
+        <input class="formulario__input" type="text" id="casa_estudios" name="casa_estudios" />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="carrera">Carrera</label>
+        <input class="formulario__input" type="text" id="carrera" name="carrera" />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="telefono">Teléfono</label>
+        <input class="formulario__input" type="tel" id="telefono" name="telefono" placeholder="+56 9 1234 5678"
+          pattern="\+56\s9\s\d{4}\s\d{4}" />
+      </div>
+      <div class="formulario__campo">
+        <label class="formulario__label" for="email">Correo Electrónico</label>
+        <input class="formulario__input" type="email" id="email" name="email" required />
+      </div>
+      <button class="formulario__boton" type="submit">
+        Enviar inscripción
+      </button>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__texto">
+      Todos tus datos están protegidos por la siguiente
+      <a class="footer__link" href="https://www.softwarelibrechile.cl">
+        Política de privacidad.
+      </a>
+    </p>
+    <p class="footer__texto">
+      © 2022 - 2026 - Todos los derechos reservados.
+    </p>
+  </footer>
+</body>
+
+</html>
