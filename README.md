@@ -29,4 +29,4 @@ Aplicar CSS Grid como sistema principal de maquetación para construir una inter
 
 ## Demo del proyecto
 
-🔗 [Ver Tarea 3](https://san-nico.github.io/G26-tarea-3)
+🔗 [Ver Tarea 3](https://san-nico.github.io/G26-S1-tarea-3)
